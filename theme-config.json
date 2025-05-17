@@ -1,0 +1,14 @@
+{
+  "themes": [
+    {
+      "value": "default",
+      "label": "Default",
+      "description": "The default blue theme"
+    },
+    {
+      "value": "tangerine",
+      "label": "Tangerine 🍊",
+      "description": "Warm orange accents with clean backgrounds"
+    }
+  ]
+}
