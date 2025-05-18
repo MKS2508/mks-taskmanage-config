@@ -27,6 +27,12 @@
       "label": "perpetuity",
       "description": "perpetuity",
       "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/perpetuity.css"
+    },
+    {
+      "value": "doom64",
+      "label": "doom64",
+      "description": "doom64",
+      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/doom64.css"
     }
   ]
 }
