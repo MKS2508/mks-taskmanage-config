@@ -7,8 +7,20 @@
     },
     {
       "value": "tangerine",
-      "label": "Tangerine 🍊",
+      "label": "Tangerine",
       "description": "Warm orange accents with clean backgrounds"
+    },
+    {
+      "value": "northern-lights",
+      "label": "northern-lights 😈 ",
+      "description": "Calming forest green theme with natural accents",
+      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/northertn-lights.css"
+    },
+    {
+      "value": "cyberpunk",
+      "label": "cyberpunk 😈 ",
+      "description": "Calming forest green theme with natural accents",
+      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/northertn-lights.css"
     }
   ]
 }
