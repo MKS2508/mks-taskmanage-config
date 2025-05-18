@@ -3,36 +3,36 @@
     {
       "value": "default",
       "label": "Default",
-      "description": "The default blue theme"
+      "description": "Balanced light surfaces with classic blue highlights"
     },
     {
       "value": "tangerine",
       "label": "Tangerine",
-      "description": "Warm orange accents with clean backgrounds"
+      "description": "Energetic tangerine accents on crisp white backgrounds"
     },
     {
       "value": "northern-lights",
-      "label": "northern-lights ",
-      "description": "Calming forest green theme with natural accents",
-      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/northertn-lights.css"
+      "label": "Northern Lights",
+      "description": "Soothing spruce-green and teal hues inspired by the aurora",
+      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/northern-lights.css"
     },
     {
       "value": "cyberpunk",
-      "label": "cyberpunk",
-      "description": "cyberpunk",
+      "label": "Cyberpunk",
+      "description": "High-contrast fuchsia, teal and midnight tones for a futuristic vibe",
       "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/cyberpunk.css"
     },
     {
       "value": "perpetuity",
-      "label": "perpetuity",
-      "description": "perpetuity",
+      "label": "Perpetuity",
+      "description": "Timeless grayscale base with subtle indigo highlights",
       "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/perpetuity.css"
     },
     {
-      "value": "doom64",
-      "label": "doom64",
-      "description": "doom64",
-      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/doom64.css"
+      "value": "synthwave84",
+      "label": "Synthwave ’84",
+      "description": "Retro neon magenta, violet & electric-cyan on deep-purple backdrops",
+      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/synthwave84.css"
     }
   ]
 }
