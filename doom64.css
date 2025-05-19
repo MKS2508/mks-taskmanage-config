@@ -1,5 +1,5 @@
 :root[data-theme="doom64"] {
-  --background: 0 0% 80%;
+  --background: 0 1% 80%;
   --foreground: 0 0% 12.16%;
   --card: 0 0% 69.02%;
   --card-foreground: 0 0% 12.16%;
@@ -60,7 +60,7 @@
   --muted-foreground: 0 0% 62.75%;
   --accent: 206.71 89.02% 67.84%;
   --accent-foreground: 0 0% 0%;
-  --destructive: 37.65 100% 50%;
+  --destructive: 37.65 100% 50%;n
   --destructive-foreground: 0 0% 0%;
   --border: 0 0% 29.02%;
   --input: 0 0% 29.02%;
