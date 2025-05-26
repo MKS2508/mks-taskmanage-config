@@ -38,6 +38,12 @@
       "label": "Synthwave ’84",
       "description": "Retro neon magentaaaaa, violet & electric-cyan on deep-purple backdrops",
       "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/synthwave84.css"
+    },
+    {
+      "value": "testtheme1",
+      "label": "test theme 1",
+      "description": "test theme 1",
+      "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/main/themes/testtheme1.css"
     }
   ]
 }
