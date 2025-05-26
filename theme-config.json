@@ -11,6 +11,11 @@
       "description": "Energetic tangerine accents on crisp white backgrounds"
     },
     {
+      "value": "midnight-blossom",
+      "label": "Midnight Blossom",
+      "description": "Deep purples and blues with elegant contrasts"
+    },
+    {
       "value": "northern-lights",
       "label": "Northern Lights",
       "description": "Soothing spruce-green and teal hues inspired by the aurora",
@@ -31,7 +36,7 @@
     {
       "value": "synthwave84",
       "label": "Synthwave ’84",
-      "description": "Retro neon magenta, violet & electric-cyan on deep-purple backdrops",
+      "description": "Retro neon magentaaaaa, violet & electric-cyan on deep-purple backdrops",
       "cssRemoteUrl": "https://raw.githubusercontent.com/MKS2508/mks-taskmanage-config/refs/heads/main/synthwave84.css"
     }
   ]
