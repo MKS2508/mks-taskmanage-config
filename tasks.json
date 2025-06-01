@@ -1,0 +1,132 @@
+[
+  {
+    "id": "task1",
+    "projectId": "project1",
+    "title": "Implementar autenticación",
+    "description": "Agregar sistema de login con soporte para múltiples proveedores",
+    "status": "todo",
+    "priority": "high",
+    "tags": [
+      "frontend",
+      "security"
+    ],
+    "assignee": "user1",
+    "createdAt": "2023-01-15T10:00:00Z",
+    "updatedAt": "2023-01-15T10:00:00Z",
+    "dueDate": "2023-02-01T23:59:59Z"
+  },
+  {
+    "id": "task2",
+    "projectId": "project1",
+    "title": "Diseñar página de inicio",
+    "description": "Crear diseño responsive para la landing page",
+    "status": "in-progress",
+    "priority": "medium",
+    "tags": [
+      "design",
+      "frontend"
+    ],
+    "assignee": "user2",
+    "createdAt": "2023-01-16T09:30:00Z",
+    "updatedAt": "2023-01-18T14:20:00Z",
+    "dueDate": "2023-01-25T23:59:59Z"
+  },
+  {
+    "id": "task3",
+    "projectId": "project1",
+    "title": "Optimizar consultas de base de datos",
+    "description": "Mejorar rendimiento de consultas principales",
+    "status": "completed",
+    "priority": "high",
+    "tags": [
+      "backend",
+      "performance"
+    ],
+    "assignee": "user3",
+    "createdAt": "2023-01-10T11:45:00Z",
+    "updatedAt": "2023-01-20T16:30:00Z",
+    "completedAt": "2023-01-20T16:30:00Z",
+    "dueDate": "2023-01-22T23:59:59Z"
+  },
+  {
+    "id": "task4",
+    "projectId": "project2",
+    "title": "Implementar sistema de notificaciones",
+    "description": "Agregar notificaciones en tiempo real para eventos importantes",
+    "status": "todo",
+    "priority": "medium",
+    "tags": [
+      "frontend",
+      "backend"
+    ],
+    "assignee": "user1",
+    "createdAt": "2023-01-18T13:20:00Z",
+    "updatedAt": "2023-01-18T13:20:00Z",
+    "dueDate": "2023-02-05T23:59:59Z"
+  },
+  {
+    "id": "task5",
+    "projectId": "project2",
+    "title": "Crear documentación de API",
+    "description": "Documentar todos los endpoints de la API con ejemplos",
+    "status": "in-progress",
+    "priority": "low",
+    "tags": [
+      "documentation",
+      "api"
+    ],
+    "assignee": "user2",
+    "createdAt": "2023-01-19T09:15:00Z",
+    "updatedAt": "2023-01-21T11:45:00Z",
+    "dueDate": "2023-02-10T23:59:59Z"
+  },
+  {
+    "id": "task6",
+    "projectId": "project3",
+    "title": "Implementar modo oscuro",
+    "description": "Agregar soporte para tema oscuro en toda la aplicación",
+    "status": "todo",
+    "priority": "low",
+    "tags": [
+      "frontend",
+      "ui"
+    ],
+    "assignee": "user3",
+    "createdAt": "2023-01-20T14:30:00Z",
+    "updatedAt": "2023-01-20T14:30:00Z",
+    "dueDate": "2023-02-15T23:59:59Z"
+  },
+  {
+    "id": "task7",
+    "projectId": "project3",
+    "title": "Migrar a TypeScript",
+    "description": "Convertir codebase de JavaScript a TypeScript",
+    "status": "in-progress",
+    "priority": "high",
+    "tags": [
+      "refactor",
+      "typescript"
+    ],
+    "assignee": "user1",
+    "createdAt": "2023-01-15T16:45:00Z",
+    "updatedAt": "2023-01-22T10:30:00Z",
+    "dueDate": "2023-02-20T23:59:59Z"
+  },
+  {
+    "id": "task8",
+    "projectId": "project3",
+    "title": "Implementar tests automatizados",
+    "description": "Configurar CI/CD con tests unitarios y de integración",
+    "status": "completed",
+    "priority": "medium",
+    "tags": [
+      "testing",
+      "devops"
+    ],
+    "assignee": "user2",
+    "createdAt": "2023-01-10T09:00:00Z",
+    "updatedAt": "2023-01-19T15:20:00Z",
+    "completedAt": "2023-01-19T15:20:00Z",
+    "dueDate": "2023-01-20T23:59:59Z"
+  }
+]
