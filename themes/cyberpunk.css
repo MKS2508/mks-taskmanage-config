@@ -1,93 +1,129 @@
-:root[data-theme="cyberpunk"] {
-  --background: 210 16.67% 97.65%;
-  --foreground: 240 41.46% 8.04%;
+/*  ────────────────────────────────
+    Synthwave ’84 – Light
+    ──────────────────────────────── */
+:root[data-theme="synthwave84"] {
+  /* surfaces */
+  --background: 288 47% 98%;        /* lavanda muy suave */
+  --foreground: 276 6% 16%;         /* gris púrpura oscuro */
+
   --card: 0 0% 100%;
-  --card-foreground: 240 41.46% 8.04%;
+  --card-foreground: 276 6% 16%;
   --popover: 0 0% 100%;
-  --popover-foreground: 240 41.46% 8.04%;
-  --primary: 312.94 100% 51%;
+  --popover-foreground: 276 6% 16%;
+
+  /* brand */
+  --primary: 327 100% 61%;          /* magenta neón */
   --primary-foreground: 0 0% 100%;
-  --secondary: 240 100% 97.06%;
-  --secondary-foreground: 240 41.46% 8.04%;
-  --muted: 240 100% 97.06%;
-  --muted-foreground: 240 41.46% 8.04%;
-  --accent: 168 100% 50%;
-  --accent-foreground: 240 41.46% 8.04%;
-  --destructive: 14.35 100% 50%;
+
+  --secondary: 268 95% 68%;         /* violeta brillante */
+  --secondary-foreground: 0 0% 100%;
+
+  /* utility */
+  --muted: 288 47% 85%;             /* lavanda pálido */
+  --muted-foreground: 276 6% 40%;   /* gris púrpura medio */
+
+  --accent: 187 100% 49%;           /* cian eléctrico */
+  --accent-foreground: 276 6% 16%;
+
+  --destructive: 14 100% 58%;       /* naranja láser */
   --destructive-foreground: 0 0% 100%;
-  --border: 198.00 18.52% 89.41%;
-  --input: 198.00 18.52% 89.41%;
-  --ring: 312.94 100% 50%;
-  --chart-1: 312.94 100% 50%;
-  --chart-2: 273.88 100% 50%;
-  --chart-3: 186.12 100% 50%;
-  --chart-4: 168 100% 50%;
-  --chart-5: 54.12 100% 50%;
-  --sidebar: 240 100% 97.06%;
-  --sidebar-foreground: 240 41.46% 8.04%;
-  --sidebar-primary: 312.94 100% 50%;
+
+  /* UI states */
+  --border: 276 6% 86%;
+  --input: 276 6% 86%;
+  --ring: 327 100% 61%;
+
+  /* data-viz palette */
+  --chart-1: 327 100% 61%;
+  --chart-2: 268 95% 68%;
+  --chart-3: 187 100% 49%;
+  --chart-4: 49 100% 50%;           /* amarillo solar */
+  --chart-5: 14 100% 58%;
+
+  /* sidebar */
+  --sidebar: 288 47% 98%;
+  --sidebar-foreground: 276 6% 16%;
+  --sidebar-primary: 327 100% 61%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 168 100% 50%;
-  --sidebar-accent-foreground: 240 41.46% 8.04%;
-  --sidebar-border: 198.00 18.52% 89.41%;
-  --sidebar-ring: 312.94 100% 50%;
-  --font-sans: Outfit, sans-serif;
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: Fira Code, monospace;
+  --sidebar-accent: 187 100% 49%;
+  --sidebar-accent-foreground: 276 6% 16%;
+  --sidebar-border: 276 6% 86%;
+  --sidebar-ring: 327 100% 61%;
+
+  /* typography & misca */
+  --font-sans: Plus Jakarta Sans, sans-serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
   --radius: 0.5rem;
-  --shadow-2xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
-  --shadow-xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
-  --shadow-sm: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 1px 2px -3px hsl(0 0% 0% / 0.10);
-  --shadow: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 1px 2px -3px hsl(0 0% 0% / 0.10);
-  --shadow-md: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 2px 4px -3px hsl(0 0% 0% / 0.10);
-  --shadow-lg: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 4px 6px -3px hsl(0 0% 0% / 0.10);
-  --shadow-xl: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 8px 10px -3px hsl(0 0% 0% / 0.10);
-  --shadow-2xl: 0px 4px 8px -2px hsl(0 0% 0% / 0.25);
+
+  /* sombras conservadas */
+  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10);
+  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10);
+  --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 2px 4px -1px hsl(0 0% 0% / 0.10);
+  --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 4px 6px -1px hsl(0 0% 0% / 0.10);
+  --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 8px 10px -1px hsl(0 0% 0% / 0.10);
+  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
 }
 
-.dark[data-theme="cyberpunk"] {
-  --background: 240 41.46% 8.04%;
-  --foreground: 217.50 26.67% 94.12%;
-  --card: 240 35.48% 18.24%;
-  --card-foreground: 217.50 26.67% 94.12%;
-  --popover: 240 35.48% 18.24%;
-  --popover-foreground: 217.50 26.67% 94.12%;
-  --primary: 312.94 100% 50%;
+/*  ────────────────────────────────
+    Synthwave ’84 – Dark
+    ──────────────────────────────── */
+.dark[data-theme="synthwave84"] {
+  --background: 268 39% 12%;        /* púrpura nocturno */
+  --foreground: 322 100% 88%;       /* rosa pastel para texto */
+
+  --card: 268 39% 18%;
+  --card-foreground: 322 100% 88%;
+  --popover: 268 39% 18%;
+  --popover-foreground: 322 100% 88%;
+
+  --primary: 327 100% 61%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 240 35.48% 18.24%;
-  --secondary-foreground: 217.50 26.67% 94.12%;
-  --muted: 240 35.48% 18.24%;
-  --muted-foreground: 232.11 17.59% 57.65%;
-  --accent: 168 100% 50%;
-  --accent-foreground: 240 41.46% 8.04%;
-  --destructive: 14.35 100% 50%;
+
+  --secondary: 268 95% 68%;
+  --secondary-foreground: 322 100% 88%;
+
+  --muted: 268 39% 30%;
+  --muted-foreground: 311 30% 65%;
+
+  --accent: 187 100% 49%;
+  --accent-foreground: 322 100% 88%;
+
+  --destructive: 14 100% 58%;
   --destructive-foreground: 0 0% 100%;
-  --border: 240 34.29% 27.45%;
-  --input: 240 34.29% 27.45%;
-  --ring: 312.94 100% 50%;
-  --chart-1: 312.94 100% 50%;
-  --chart-2: 273.88 100% 50%;
-  --chart-3: 186.12 100% 50%;
-  --chart-4: 168 100% 50%;
-  --chart-5: 54.12 100% 50%;
-  --sidebar: 240 41.46% 8.04%;
-  --sidebar-foreground: 217.50 26.67% 94.12%;
-  --sidebar-primary: 312.94 100% 50%;
+
+  --border: 268 39% 30%;
+  --input: 268 39% 30%;
+  --ring: 327 100% 61%;
+
+  --chart-1: 327 100% 61%;
+  --chart-2: 268 95% 68%;
+  --chart-3: 187 100% 49%;
+  --chart-4: 49 100% 50%;
+  --chart-5: 14 100% 58%;
+
+  --sidebar: 268 39% 12%;
+  --sidebar-foreground: 322 100% 88%;
+  --sidebar-primary: 327 100% 61%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 168 100% 50%;
-  --sidebar-accent-foreground: 240 41.46% 8.04%;
-  --sidebar-border: 240 34.29% 27.45%;
-  --sidebar-ring: 312.94 100% 50%;
-  --font-sans: Outfit, sans-serif;
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: Fira Code, monospace;
+  --sidebar-accent: 187 100% 49%;
+  --sidebar-accent-foreground: 322 100% 88%;
+  --sidebar-border: 268 39% 30%;
+  --sidebar-ring: 327 100% 61%;
+
+  --font-sans: Plus Jakarta Sans, sans-serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
   --radius: 0.5rem;
-  --shadow-2xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
-  --shadow-xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
-  --shadow-sm: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 1px 2px -3px hsl(0 0% 0% / 0.10);
-  --shadow: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 1px 2px -3px hsl(0 0% 0% / 0.10);
-  --shadow-md: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 2px 4px -3px hsl(0 0% 0% / 0.10);
-  --shadow-lg: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 4px 6px -3px hsl(0 0% 0% / 0.10);
-  --shadow-xl: 0px 4px 8px -2px hsl(0 0% 0% / 0.10), 0px 8px 10px -3px hsl(0 0% 0% / 0.10);
-  --shadow-2xl: 0px 4px 8px -2px hsl(0 0% 0% / 0.25);
+
+  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10);
+  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 1px 2px -1px hsl(0 0% 0% / 0.10);
+  --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 2px 4px -1px hsl(0 0% 0% / 0.10);
+  --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 4px 6px -1px hsl(0 0% 0% / 0.10);
+  --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.10), 0 8px 10px -1px hsl(0 0% 0% / 0.10);
+  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
 }
