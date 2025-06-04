@@ -1,0 +1,9 @@
+{
+  "themes": [
+    {
+      "value": "default",
+      "label": "Default",
+      "description": "Default theme"
+    }
+  ]
+}
