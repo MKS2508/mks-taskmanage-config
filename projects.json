@@ -1,34 +1,10 @@
 [
   {
-    "id": "project-1749920221017",
-    "name": "MKS IPTV ",
-    "description": "## Project Overview\n\nThis is a SwiftUI-based IPTV client application that supports multiple Apple platforms (iOS, macOS, tvOS). The app allows users to browse and stream movies, TV series, and live channels from an IPTV service.\n\n## Architecture\n\nThe project follows an MVVM architecture with clear separation of concerns:\n\n- **Models**: Data structures for movies, series, live channels, and categories\n- **ViewModels**: Business logic and state management (MediaListViewModel, DownloadManager, etc.)\n- **Views**: SwiftUI views with platform-specific implementations\n- **Services**: Network layer (MovieService) for API communication\n- **Core**: Shared utilities like networking, configuration, and caching\n\nKey architectural patterns:\n\n- Platform-specific views using conditional compilation (#if os(iOS), etc.)\n- Shared ViewModels across platforms\n- Centralized configuration in IPTVConfiguration\n- Download management system with local HTTP server for streaming",
-    "status": "active",
-    "priority": "high",
-    "tags": [
-      "swiftui",
-      "iOS",
-      "MacOS",
-      "v26.LiquidGlass",
-      "tvOS",
-      "XCODE 26"
-    ],
-    "team": [],
-    "owner": "MKS2508",
-    "createdAt": "2025-06-14T16:57:01.017Z",
-    "updatedAt": "2025-06-14T16:57:01.017Z",
-    "dueDate": "",
-    "completionPercentage": 0,
-    "stats": {
-      "completionPercentage": 0,
-      "tasks": 0,
-      "branches": 0,
-      "pullRequests": 0
-    }
-  },
-  {
     "id": "project1",
     "name": "Sistema de Gestión de Clientes",
+    "title": "Sistema de Gestión de Tareas",
+    "path": "/projects/project1",
+    "markdownPath": "data/markdown/project1.md",
     "description": "Aplicación web para gestionar clientes, pedidos e inventario",
     "status": "active",
     "createdAt": "2023-01-01T10:00:00Z",
@@ -51,6 +27,9 @@
   {
     "id": "project2",
     "name": "Aplicación Móvil de Fitness",
+    "title": "API REST",
+    "path": "/projects/project2",
+    "markdownPath": "data/markdown/project2.md",
     "description": "App para seguimiento de rutinas de ejercicio y nutrición",
     "status": "planning",
     "createdAt": "2023-01-15T09:30:00Z",
@@ -72,6 +51,9 @@
   {
     "id": "project3",
     "name": "Portal de Noticias",
+    "title": "Dashboard de Estadísticas",
+    "path": "/projects/project3",
+    "markdownPath": "data/markdown/project3.md",
     "description": "Sitio web de noticias con sistema de suscripción",
     "status": "active",
     "createdAt": "2022-11-10T11:45:00Z",
