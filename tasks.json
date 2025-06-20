@@ -13,18 +13,6 @@
     "status": "done"
   },
   {
-    "title": "Eed",
-    "description": "",
-    "priority": "medium",
-    "status": "todo",
-    "assignee": "",
-    "tags": [],
-    "projectId": "project-1750364921987",
-    "id": "task-1750370583214-d1urt64tp",
-    "createdAt": "2025-06-19T22:03:03.214Z",
-    "updatedAt": "2025-06-19T22:03:09.815Z"
-  },
-  {
     "id": "task1",
     "projectId": "project1",
     "title": "Implementar autenticación",
