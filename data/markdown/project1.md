@@ -1,3 +1,5 @@
 # Sistema de Gestión de Clientes
 
-Aplicación web para gestionar clientes, pedidos e inventario
+This is the main documentation for Sistema de Gestión de Clientes.
+
+Start writing here!
