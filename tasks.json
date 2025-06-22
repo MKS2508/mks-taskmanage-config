@@ -9,8 +9,8 @@
     "projectId": "project-1750364921987",
     "id": "task-1750366435275-ivdh5e4ev",
     "createdAt": "2025-06-19T20:53:55.275Z",
-    "updatedAt": "2025-06-19T21:52:08.989Z",
-    "status": "done"
+    "updatedAt": "2025-06-22T15:11:12.021Z",
+    "status": "todo"
   },
   {
     "id": "task1",
@@ -25,7 +25,7 @@
     ],
     "assignee": "user1",
     "createdAt": "2023-01-15T10:00:00Z",
-    "updatedAt": "2023-01-15T10:00:00Z",
+    "updatedAt": "2025-06-22T15:11:20.571Z",
     "dueDate": "2023-02-01T23:59:59Z"
   },
   {
@@ -33,7 +33,7 @@
     "projectId": "project1",
     "title": "Diseñar página de inicio",
     "description": "Crear diseño responsive para la landing page",
-    "status": "in-progress",
+    "status": "todo",
     "priority": "medium",
     "tags": [
       "design",
@@ -41,7 +41,7 @@
     ],
     "assignee": "user2",
     "createdAt": "2023-01-16T09:30:00Z",
-    "updatedAt": "2023-01-18T14:20:00Z",
+    "updatedAt": "2025-06-22T15:11:23.488Z",
     "dueDate": "2023-01-25T23:59:59Z"
   },
   {
