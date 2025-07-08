@@ -1,30 +1,5 @@
 [
   {
-    "id": "project-1750364921987",
-    "name": "MKS IPTV ",
-    "description": "",
-    "status": "active",
-    "priority": "medium",
-    "tags": [
-      "iptv",
-      "swiftui",
-      "iOS",
-      "MacOS"
-    ],
-    "team": [],
-    "owner": "MKS2508",
-    "createdAt": "2025-06-19T20:28:41.987Z",
-    "updatedAt": "2025-06-19T20:28:41.987Z",
-    "dueDate": "",
-    "completionPercentage": 0,
-    "stats": {
-      "completionPercentage": 0,
-      "tasks": 0,
-      "branches": 0,
-      "pullRequests": 0
-    }
-  },
-  {
     "id": "project1",
     "name": "Sistema de Gestión de Clientes",
     "title": "Sistema de Gestión de Tareas",
