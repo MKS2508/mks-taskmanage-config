@@ -1,5 +1,14 @@
 [
   {
+    "url": "https://shots.so",
+    "title": "Shots - Create Amazing Mockups",
+    "description": "Create Amazing Mockups",
+    "tags": [],
+    "id": "b7b21b35-4ee5-4664-b3ec-8fb3601a378b",
+    "createdAt": "2025-07-08T18:09:50.391Z",
+    "updatedAt": "2025-07-08T18:09:50.392Z"
+  },
+  {
     "id": "gl1",
     "url": "https://react.dev/",
     "title": "React Docs",
