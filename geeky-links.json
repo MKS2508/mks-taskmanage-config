@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://catbox.moe",
-    "title": "catbox.moe - file management up to 200mb free",
-    "description": "servir y almacenar media (y files??) hasta 200mb con enlace directo",
-    "tags": [
-      "frontend",
-      "tool",
-      "web",
-      "file serve",
-      "free",
-      "files",
-      "serve videos",
-      "direct link"
-    ],
-    "id": "507a524b-70b3-48e5-9c8a-775228d304ee",
-    "createdAt": "2025-06-19T20:43:11.725Z",
-    "updatedAt": "2025-06-19T22:22:48.894Z"
-  },
-  {
-    "url": "https://x.com/sohei1L/status/1935063543461929015",
-    "title": "regla a agregar a claude",
-    "description": "",
-    "tags": [
-      "TO DO",
-      "CLAUDE"
-    ],
-    "id": "b6acb07b-0245-4aa7-97aa-59c81097dc37",
-    "createdAt": "2025-06-19T21:42:36.642Z",
-    "updatedAt": "2025-06-19T22:22:48.894Z"
-  },
-  {
-    "url": "https://huggingface.co/spaces/Xenova/remove-background-web",
-    "title": "Quitar fondo con IA - Corre en navegador",
-    "description": "https://x.com/midudev/status/1935713384571261179\nElimina el fondo de una imagen con IA.\nEn tu navegador, sin coste, sin APIs, 100% local.\n\nCódigo y demostración con WebGPU y WebAssembly:\nhttps://huggingface.co/spaces/Xenova/remove-background-web",
-    "tags": [
-      "tweet",
-      "ia",
-      "tool",
-      "image-manipulation",
-      "remove-background",
-      "remove-bg",
-      "background",
-      "browser",
-      "WASM",
-      "feature"
-    ],
-    "id": "c7837b17-7cc3-4d0b-8d6d-0283a5eeef31",
-    "createdAt": "2025-06-19T20:26:24.022Z",
-    "updatedAt": "2025-06-19T22:22:48.895Z"
-  },
-  {
     "id": "gl1",
     "url": "https://react.dev/",
     "title": "React Docs",
@@ -59,8 +9,8 @@
       "frontend",
       "library"
     ],
-    "createdAt": "2025-06-19T20:22:22.440Z",
-    "updatedAt": "2025-06-19T22:22:48.896Z"
+    "createdAt": "2025-07-08T18:08:22.862Z",
+    "updatedAt": "2025-07-08T18:08:22.862Z"
   },
   {
     "id": "gl2",
@@ -72,8 +22,8 @@
       "framework",
       "fullstack"
     ],
-    "createdAt": "2025-06-19T20:22:22.441Z",
-    "updatedAt": "2025-06-19T22:22:48.897Z"
+    "createdAt": "2025-07-08T18:08:22.862Z",
+    "updatedAt": "2025-07-08T18:08:22.862Z"
   },
   {
     "id": "gl3",
@@ -85,7 +35,7 @@
       "styling",
       "utility-first"
     ],
-    "createdAt": "2025-06-19T20:22:22.450Z",
-    "updatedAt": "2025-06-19T22:22:48.897Z"
+    "createdAt": "2025-07-08T18:08:22.863Z",
+    "updatedAt": "2025-07-08T18:08:22.863Z"
   }
 ]
