@@ -1,5 +1,30 @@
 [
   {
+    "id": "project-1750364921987",
+    "name": "MKS IPTV ",
+    "description": "",
+    "status": "active",
+    "priority": "medium",
+    "tags": [
+      "iptv",
+      "swiftui",
+      "iOS",
+      "MacOS"
+    ],
+    "team": [],
+    "owner": "MKS2508",
+    "createdAt": "2025-06-19T20:28:41.987Z",
+    "updatedAt": "2025-06-19T20:28:41.987Z",
+    "dueDate": "",
+    "completionPercentage": 0,
+    "stats": {
+      "completionPercentage": 0,
+      "tasks": 0,
+      "branches": 0,
+      "pullRequests": 0
+    }
+  },
+  {
     "id": "project1",
     "name": "Sistema de Gestión de Clientes",
     "title": "Sistema de Gestión de Tareas",
@@ -72,40 +97,5 @@
     "priority": "high",
     "dueDate": "2023-05-01T23:59:59Z",
     "completionPercentage": 60
-  },
-  {
-    "id": "telegram-bot-unified",
-    "name": "Unified Telegram Bot Manager",
-    "title": "Telegram Bot Management System with Bun",
-    "path": "/projects/telegram-bot-unified",
-    "markdownPath": "data/markdown/project-telegram-bot.md",
-    "description": "A comprehensive React Ink-based interface for Telegram bot management, built with Bun.",
-    "status": "active",
-    "createdAt": "2025-06-22T10:00:00Z",
-    "updatedAt": "2025-06-22T10:00:00Z",
-    "tags": [
-      "telegram",
-      "bot",
-      "bun",
-      "react-ink",
-      "cli",
-      "typescript",
-      "nodejs",
-      "real-time"
-    ],
-    "owner": "user-dev",
-    "team": [
-      "user-dev",
-      "ai-contributor"
-    ],
-    "priority": "high",
-    "dueDate": "2025-12-31T23:59:59Z",
-    "completionPercentage": 20,
-    "stats": {
-      "completionPercentage": 20,
-      "tasks": 0,
-      "branches": 3,
-      "pullRequests": 1
-    }
   }
 ]
